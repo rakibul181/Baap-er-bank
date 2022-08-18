@@ -37,14 +37,14 @@ document.getElementById('deposit').addEventListener('click',function(){
 // +++++++++++++withdraw+++++++++++
 
 document.getElementById('withdraw').addEventListener('click', function(){
-    // step-1  get withdraw value
+    // step-1  get withdraw value ny withdraw btn from input feild
     const withdrawField = document.getElementById('withdraw-field')
     const newWithdraw = withdrawField.value
     const newWithdeawBalance = parseFloat(newWithdraw)
     console.log(newWithdeawBalance)
 
 
-    //  setpe-2 get privious Withdraw value
+    //  step-2 get privious Withdraw value 
     const priviousWithdeaw = document.getElementById('withdraw-tatal')
     const priviousWithdrawAmount  = priviousWithdeaw.innerText
     const priviousWithdrawBalence = parseFloat(priviousWithdrawAmount)
