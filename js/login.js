@@ -10,8 +10,9 @@ document.getElementById('submit').addEventListener('click', function(){
 
     if(eamil=='rakib@bap.er.bank' && password == 'baperbank'){
         console.log('Valid User')
+        window.location.href = 'bank.html'
     }
     else{
-        console.log('Invalid User')
+        alert('Toke ami teijjo sontan goshona korlam. tui id password vule gesos')
     }
 })
